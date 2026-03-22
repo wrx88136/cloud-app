@@ -16,7 +16,7 @@ const Dashboard = () => {
 
   // 1. Funkcja pobierająca zadania - zdefiniowana osobno, by móc ją wywołać wielokrotnie
   const fetchTasks = () => {
-    api.get('/tasks')
+    api.get('/api/Tasks')
       .then((res: any) => {
         setItems(res.data);
       })
@@ -39,7 +39,7 @@ const Dashboard = () => {
 
     try {
       // Wykorzystujemy nasz kontrakt API - wysyłamy tylko to, czego oczekuje TaskCreateDto
-      await api.post('/tasks', {
+      await api.post('/api/Tasks', {
         name: newTaskName
       });
 
