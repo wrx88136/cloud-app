@@ -16,6 +16,7 @@ Ten projekt został zaplanowany z myślą o usługach PaaS (Platform as a Servic
 * [x] **Artefakt 2:** Środowisko wielokontenerowe uruchomione lokalnie (Docker Compose)
 * [x] **Artefakt 3:** Działająca warstwa prezentacji (React + Vite w Dockerze).
 * [x] **Artefakt 4:** Działająca warstwa logiki backendu (.Net9 + SQL Connection).
-* [x] **Artefakt 5:** System jest gotowy na chmurę.
+* [x] **Artefakt 5:** Trwałość danych i profesjonalny kontakt API (EF Migrations + DTO + UI Form).
+* [x] **Artefakt 6:** 
  
 > **Informacja:** Ten plik będzie ewoluował. W kolejnych etapach dodamy tutaj sekcje 'Quick Start', opis zmiennych środowiskowych oraz instrukcję wdrożenia (CI/CD).
